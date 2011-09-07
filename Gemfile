@@ -1,4 +1,5 @@
-source 'http://rubygems.org'
+#source 'http://rubygems.org'
+source "http://rubygems.dev/"
 
 gem 'rails', '3.1.0'
 
@@ -17,6 +18,8 @@ group :assets do
 end
 
 gem 'jquery-rails'
+
+gem 'enumerated_attribute'
 
 # Use unicorn as the web server
 # gem 'unicorn'

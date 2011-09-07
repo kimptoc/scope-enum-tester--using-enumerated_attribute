@@ -1,5 +1,5 @@
 GEM
-  remote: http://rubygems.org/
+  remote: http://rubygems.dev/
   specs:
     actionmailer (3.1.0)
       actionpack (= 3.1.0)
@@ -41,6 +41,8 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.1.2)
+    enumerated_attribute (0.2.16)
+      meta_programming (>= 0.2.1)
     erubis (2.7.0)
     execjs (1.2.4)
       multi_json (~> 1.0)
@@ -53,6 +55,7 @@ GEM
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    meta_programming (0.2.2)
     mime-types (1.16)
     multi_json (1.0.3)
     polyglot (0.3.2)
@@ -109,6 +112,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.1.0)
+  enumerated_attribute
   jquery-rails
   rails (= 3.1.0)
   sass-rails (~> 3.1.0)
